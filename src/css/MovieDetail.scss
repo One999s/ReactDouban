@@ -1,0 +1,12 @@
+.box{
+    width: 500px;
+    height: 600px;
+    // background:#22212F;
+    margin: 0 auto;
+    position: relative;
+    img{position: relative;left:50%;transform: translate(-50%);}
+    h2{color: black;font-weight: bold;}
+    .summary{
+        color: black;
+    }
+}

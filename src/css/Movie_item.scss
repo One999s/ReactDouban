@@ -1,0 +1,26 @@
+.box{
+    width: 170px;
+    text-align: center;
+    border:1px solid #ddd;
+    box-shadow: 0 0 6px #ddd;
+    font-size: 12px;
+    padding: 3px;
+    cursor: pointer;
+    margin: 7px;
+    transition: all 0.3s ease;
+    .img{
+        width: 120px;
+        height: 140px;
+        margin: 5px 0;
+    }
+    .name{
+        width:100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    &:hover{
+        transform: rotate(1deg) scale(1.02);
+        opacity: 0.8;
+    }
+}
